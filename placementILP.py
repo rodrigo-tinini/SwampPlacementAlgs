@@ -7,8 +7,8 @@ import time
 from enum import Enum
 from scipy.stats import norm
 import matplotlib.pyplot as plt
-#This ILP does the allocation of batches of RRHs to the processing nodes.
-#It considers that each RRH is connected to the cloud and to only one fog node.
+#This ILP does the placement of sensors processing and schedules its transmissions through an avaialble transmission channel to the processing nodes.
+#It considers that each sensor is connected to the cloud and to only one fog node.
 
 #log variables
 power_consumption = []
