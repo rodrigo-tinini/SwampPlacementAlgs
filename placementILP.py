@@ -1,4 +1,3 @@
-#DOCPLEX of the GC'17 ILP
 from docplex.mp.model import Model
 import simpy
 import functools
